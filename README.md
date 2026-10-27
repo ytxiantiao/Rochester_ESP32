@@ -2,7 +2,7 @@
 
 为了守卫班级的和平与安全，我决定开发一套预警防御系统。
 因为这位老师的外号（之一）叫“家庭教师”，我们引用了《简·爱》中男主角的名字——罗切斯特 (Rochester)，作为这套装置的代号。
-现在，只要“罗切斯特”老师的身影在后门出现，这套装置就能提前捕捉到距离变化，通过高灵敏度和视觉/串口警报，让全班同学迅速无缝（真的吗）切换回“认真学习”状态。
+现在，只要汤达人的身影在后门出现，这套装置就能提前捕捉到距离变化，通过高灵敏度和视觉/串口警报，让全班同学迅速无缝（真的吗）切换回“认真学习”状态。
 
 
 **项目特性
@@ -25,16 +25,16 @@ VL53L0X 激光测距模块（I2C） * 1
 **硬件接线
 
 发送端：
-VL53L0X VCC → 3.3V
-VL53L0X GND → GND
-VL53L0X SDA → GPIO 8
-VL53L0X SCL → GPIO 9
+VL53L0X VCC → 3.3V,
+VL53L0X GND → GND,（废话）
+VL53L0X SDA → GPIO 8,
+VL53L0X SCL → GPIO 9,
 
 **接收端：
-OLED VCC → 3.3V
-OLED GND → GND
-OLED SDA → GPIO 8
-OLED SCL → GPIO 9
+OLED VCC → 3.3V,
+OLED GND → GND,(还是废话）
+OLED SDA → GPIO 8,
+OLED SCL → GPIO 9,
 
 
 **软件依赖与烧录（Arduino IDE）
