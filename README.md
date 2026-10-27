@@ -1,6 +1,6 @@
 **项目背景
 
-为了守卫班级的和平与安全，我决定开发一套预警防御系统。
+为了守卫班级的和平与安全，我们决定开发一套预警防御系统。
 因为这位老师的外号（之一）叫“家庭教师”，我们引用了《简·爱》中男主角的名字——罗切斯特 (Rochester)，作为这套装置的代号。
 现在，只要汤达人的身影在后门出现，这套装置就能提前捕捉到距离变化，通过高灵敏度和视觉/串口警报，让全班同学迅速无缝（真的吗）切换回“认真学习”状态。
 
@@ -32,7 +32,7 @@ VL53L0X SCL → GPIO 9,
 
 **接收端：
 OLED VCC → 3.3V,
-OLED GND → GND,(还是废话）
+OLED GND → GND,（还是废话）
 OLED SDA → GPIO 8,
 OLED SCL → GPIO 9,
 
@@ -40,7 +40,7 @@ OLED SCL → GPIO 9,
 **软件依赖与烧录（Arduino IDE）
 
 Arduino 库依赖：
-[U8g2](https://github.com/olikraus/u8g2)
+[U8g2](https://github.com/olikraus/u8g2),
 [VL53L0X](https://github.com/pololu/vl53l0x-arduino) (Pololu)
 ESP32 Core (建议 3.x 版本)
 
